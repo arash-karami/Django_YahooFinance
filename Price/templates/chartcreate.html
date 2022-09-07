@@ -1,0 +1,17 @@
+
+
+
+
+
+
+                <form method="POST" ">
+                    {% csrf_token %}
+                    
+                        {{ form.as_p }} {# <p>Hello</p><p>Hello</p> #}
+
+
+                    
+                    <button type="submit" class="btn btn-primary">Submit</button>
+
+                    
+                </form>
